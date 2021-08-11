@@ -4,7 +4,7 @@ Control your audio and video by using any regular mouse as a multimedia controll
 Get started by visiting the [Setup section](https://github.com/arimgibson/Multimedia-Mouse#Setup)!
 
 ## Contributing
-This project was created with just myself in mind; I'm open sourcing it thinking a handful of others might also see the use in this macro. If you'd like to contribute or make a PR, I'd appreciate if you open an issue first so I can give my thoughts before you write the code. As the GPLv3 license permits, you are allowed to modify this and republish it to a new repository (I'd appreciate credit 😊).
+This project was created with just myself in mind; I'm open sourcing it thinking a handful of others might also see the use in this macro. However, I'm not very familiar with AHK and didn't take the time to make a GUI or otherwise make this user-friendly. If you'd like to contribute or make a PR, I'd appreciate if you open an issue first so I can give my thoughts before you write the code. As the GPLv3 license permits, you are allowed to modify this and republish it to a new repository (I'd appreciate credit 😊).
 
 ## Keybindings
 These are the default keybindings and functions, but they can be edited if you know a little bit of AHK. If anyone is interested in making a GUI editor to change the keybindings, I'd really appreciate a PR!

@@ -5,6 +5,7 @@
 #include lib\Spotify.ahk
 
 global spotifyClient := new Spotify
+global spotifyPremium = false
 global spotifyMode = false
 global AHI := new AutoHotInterception()
 global dblClickThreshold = -200
@@ -29,7 +30,7 @@ Gui Font, s30 cWhite, Calibri
 Gui Color, 0x000000
 Gui Add, Text, x0 y0 w400 h75 +0x200 +Center, Spotify Volume Mode
 
-mouseId := AHI.GetMouseId(0x0461, 0x4D15)
+mouseId := AHI.GetMouseId(0x046D, 0xC077)
 AHI.SubscribeMouseButton(mouseId, 0, true, Func("leftClick"))
 AHI.SubscribeMouseButton(mouseId, 1, true, Func("rightClick"))
 AHI.SubscribeMouseButton(mouseId, 2, true, Func("middleClick"))
